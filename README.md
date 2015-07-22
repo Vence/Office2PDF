@@ -44,7 +44,7 @@
 
 本项目代码将office转成pdf后，就可以通过jQuery-media展示pdf，具体做法就是：
 
-`<a class="media" id="others-docpreview" href=""></a>`
+`<a class="media" href="123.pdf"></a>`
 
 js脚本执行如下：
 
