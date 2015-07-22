@@ -19,7 +19,20 @@
 
 这也是目前比较主流的方式，例如百度云盘大概就是按照这种方式
 
+###基于IText + POI + Jsoup
+[请访问原文博客](http://blog.csdn.net/ptzrbin/article/details/43449701)
+
+主要原理：
+
+ - 使用 poi 将word转换成 html
+ - 使用IText 将html转换成pdf（由于html中所有标签都必须要闭合，才能使用IText,所以这里用jsoup对html进行转换）
+ 
+缺点： 会有失真问题，另外涉及到中文编码问题
+
+
 ##基于Openoffice + jquery-media
+
+这种也是我以上项目中所采用的方案：
 
 主要原理：
 
@@ -36,6 +49,10 @@
 js脚本执行如下：
 
 `$("a.media").media({width:800, height:600});`
+
+优点： 前后台代码都比较简单
+
+缺点：依然需要安装OpenOffice软件
 
 ##附件：
 
