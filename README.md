@@ -3,7 +3,7 @@
 
 首先了解一下目前主流的文件预览方案：
 
-##基于openoffice + swftools + flexpaper
+## 基于openoffice + swftools + flexpaper
 
 [请访问原文博客](http://blog.csdn.net/z69183787/article/details/17468039)
 
@@ -19,7 +19,7 @@
 
 这也是目前比较主流的方式，例如百度云盘大概就是按照这种方式
 
-###基于IText + POI + Jsoup
+## 基于IText + POI + Jsoup
 [请访问原文博客](http://blog.csdn.net/ptzrbin/article/details/43449701)
 
 主要原理：
@@ -30,7 +30,7 @@
 缺点： 会有失真问题，另外涉及到中文编码问题
 
 
-##基于Openoffice + jquery-media
+## 基于Openoffice + jquery-media
 
 这种也是我以上项目中所采用的方案：
 
